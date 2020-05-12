@@ -8,4 +8,4 @@ fields:
     required: true
   label: Title
 pages:
-- pages/collection/salvaged-series-2.md
+- src/pages/collection/salvaged-series-2.md
