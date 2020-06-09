@@ -9,6 +9,8 @@ sections:
   label: Collection
   create: all
   match: "**/*"
+  templates:
+  - product-page
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
