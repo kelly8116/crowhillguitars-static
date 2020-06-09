@@ -12,10 +12,7 @@ module.exports = {
       options: {
         path: './src/pages/collection/**/*.md',
         typeName: 'CollectionItem',
-        route: '/collection/:title',
-        remark: {
-
-        }
+        route: '/collection/:title'
       }
     }
   ],
@@ -26,10 +23,7 @@ module.exports = {
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-      plugins: [
-        'remark-images'
-      ]
+      anchorClassName: 'icon icon-link'
     }
   }
 }

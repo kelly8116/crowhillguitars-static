@@ -2,8 +2,7 @@
   <div class="layout">
     <g-link to="/collection/salvaged-series-3" class="link">  &larr; Go Back right now</g-link>
     <h1 class="title" v-html="$page.qry.title" />
-    <g-image :src="$page.qry.hero_image" />
-    {{ $page.qry.hero_image }}
+    <g-image :src="require(`!!assets-loader!@images/${$page.qry.hero_image}`)" width="200" height="200" fit="contain" />
     <slot/> <!-- Page/Template will be inserted here -->
   </div>    
 </template>
@@ -12,7 +11,7 @@
   query Collection($path: String){
     qry: collectionItem(path: $path){
       title
-      hero_image (width: 720, height: 200, quality: 90)
+      hero_image (width: 400, height: 200)
     }
   }
 </page-query>
@@ -21,16 +20,6 @@
 export default {
   props: {
     content: String
-  },
-  computed: {
-    imagePath (image) {
-      console.log(image)
-      const path = '!!assets-loader!~' + image
-      return {
-        alt: 'Todd',
-        img: require(path)
-      }
-    }
   }
 }
 </script>
