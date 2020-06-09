@@ -8,10 +8,14 @@ fields:
     required: true
   label: Title
 - name: meta_data
-  type: include
+  type: field_group
   config: {}
-  template: meta-data
+  fields:
+  - name: meta_data_field
+    type: include
+    config: {}
+    template: meta-data
+    label: Meta Data Field
   label: Meta Data
-  description: Add meta data.
 pages:
 - src/pages/collection/salvaged-series-2.md
