@@ -6,6 +6,10 @@
 
     <h1>Hello, world!</h1>
 
+    <section class="posts">
+      <CollectionList v-for="edge in $page.pages.edges" :key="edge.node.title" :post="edge.node" />
+    </section>
+
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
     </p>
@@ -18,10 +22,27 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  pages: allCollectionItem {
+		edges {
+      node {
+        title
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
+import CollectionList from '~/components/CollectionList.vue'
+
 export default {
   metaInfo: {
     title: 'Hello, world!'
+  },
+  components: {
+    CollectionList
   }
 }
 </script>
