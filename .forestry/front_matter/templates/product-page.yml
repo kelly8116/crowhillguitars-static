@@ -7,5 +7,10 @@ fields:
   config:
     required: true
   label: Title
+- name: meta_data
+  type: include
+  config: {}
+  template: meta-data
+  label: Meta Data
 pages:
 - src/pages/collection/salvaged-series-2.md
