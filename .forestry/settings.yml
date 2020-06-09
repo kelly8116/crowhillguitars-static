@@ -12,7 +12,7 @@ sections:
   templates:
   - product-page
 upload_dir: src/images
-public_path: assets/static/src/images
+public_path: "/assets/static/src/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
