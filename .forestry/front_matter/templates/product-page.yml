@@ -12,5 +12,6 @@ fields:
   config: {}
   template: meta-data
   label: Meta Data
+  description: Add meta data.
 pages:
 - src/pages/collection/salvaged-series-2.md
