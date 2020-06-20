@@ -8,6 +8,7 @@ subtitle: Custom Solidbody
 available:
   is_available: true
   price: "3200"
+  product_id: "4597955887185"
 purchase_code: "4597955887185"
 
 ---
