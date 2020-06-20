@@ -7,6 +7,27 @@ fields:
   config:
     required: true
   label: Title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: available
+  type: field_group
+  config: {}
+  fields:
+  - name: is_available
+    type: boolean
+    label: Is Available
+  - name: price
+    type: text
+    config:
+      required: false
+    label: Price
+    showOnly:
+      field: is_available
+      value: true
+  label: Available
 - name: hero_image
   type: file
   config:
