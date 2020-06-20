@@ -43,6 +43,15 @@ fields:
     template: meta-data
     label: Meta Data Field
   label: Meta Data
+- name: purchase_code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Purchase Code
 pages:
 - content/collection/strat-style.md
 - content/collection/test-4.md
