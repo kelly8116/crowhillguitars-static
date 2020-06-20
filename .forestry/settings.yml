@@ -11,7 +11,7 @@ sections:
   match: "**/*"
   templates:
   - product-page
-upload_dir: static/assets/images
+upload_dir: src/assets/images
 public_path: "/assets/images"
 front_matter_path: /assets/images"
 use_front_matter_path: true
