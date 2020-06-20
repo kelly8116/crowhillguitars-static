@@ -13,7 +13,7 @@ sections:
   - product-page
 upload_dir: src/assets/images
 public_path: "/assets/images"
-front_matter_path: /assets/images"
+front_matter_path: "/assets/images"
 use_front_matter_path: true
 file_template: ":filename::year::month::day:"
 build:

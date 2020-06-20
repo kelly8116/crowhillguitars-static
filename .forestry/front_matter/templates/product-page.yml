@@ -22,5 +22,3 @@ fields:
     template: meta-data
     label: Meta Data Field
   label: Meta Data
-pages:
-- src/pages/collection/strat-style.md
