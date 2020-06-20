@@ -10,7 +10,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: './pages/collection/**/*.md',
+        path: './content/collection/**/*.md',
         typeName: 'CollectionItem',
         route: '/collection/:title'
       }
