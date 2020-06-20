@@ -45,5 +45,6 @@ fields:
   label: Meta Data
 pages:
 - content/collection/strat-style.md
+- content/collection/test-4.md
 - content/collection/test.md
 - content/collection/test3.md
