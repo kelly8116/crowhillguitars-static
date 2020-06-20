@@ -27,6 +27,11 @@ fields:
     showOnly:
       field: is_available
       value: true
+  - name: product_id
+    type: text
+    config:
+      required: false
+    label: Product Id
   label: Available
 - name: hero_image
   type: file
