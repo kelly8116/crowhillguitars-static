@@ -1,0 +1,50 @@
+//* -------------------*//
+//* ////// #Vars //////*//
+//* -------------------*//
+
+// @import "sass-easing/_easings.scss";
+
+/*------#breakpoints------*/
+
+// $breakpoints: (
+//   xs   : 0px,
+//   phab : 320px,
+//   sm   : 544px,
+//   md   : 768px,
+//   lg   : 992px,
+//   xl   : 1200px,
+// ) !default;
+
+$mq-breakpoints: (
+  xs   : 0px,
+  phab : 320px,
+  sm   : 544px,
+  md   : 768px,
+  lg   : 992px,
+  xl   : 1200px,
+);
+
+// _functions.scss
+@function bp($key) {
+  @if map-has-key($mq-breakpoints, $key) {
+    @return map-get($mq-breakpoints, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $breakpoints.";
+  @return null;
+}
+
+/*------#colors------*/
+$color-orange     : #ff6b00;
+$color-gray-dark  : #222222;
+$color-gray-light : #ededed;
+$color-black      : #000000;
+$color-white      : #ffffff;
+
+
+/*------#fonts------*/
+
+// $font-base  : 'Oswald', sans-serif;
+// $font-black   : "Molot", "Arial Black", sans-serif;
+// $font-heading : "DinCondensed", "Arial Narrow", sans-serif;
+// $font-style   : "Daniel", cursive;

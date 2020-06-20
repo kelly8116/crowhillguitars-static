@@ -10,12 +10,24 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: './src/pages/collection/**/*.md',
+        path: './pages/collection/**/*.md',
         typeName: 'CollectionItem',
         route: '/collection/:title'
       }
+    },
+    {
+      use: 'gridsome-plugin-sass-resources-loader',
+      options: {
+        resources: ['@/assets/main.scss'],
+      }
+    },
+    {
+      use: 'gridsome-plugin-tailwindcss'
     }
   ],
+  chainWebpack: config => {
+    config.resolve.alias.set('@images', '@/assets/images')
+  },
   templates: {
     CollectionItem: '/collection/:title'
   },
