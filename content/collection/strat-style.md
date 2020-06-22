@@ -7,7 +7,7 @@ meta_data:
 subtitle: Custom Solidbody
 available:
   is_available: true
-  price: "3200"
+  price: "3400"
   product_id: "4597955887185"
 purchase_code: "4597955887185"
 
