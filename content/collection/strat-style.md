@@ -12,10 +12,6 @@ available:
 purchase_code: '4597955887185'
 featured_image: "/11419-strat-featured20200622.jpg"
 product_specs:
-- heading: Body Shape
-  spec_content:
-  - template: product-spec-single
-    content: S-Type
 - heading: Wood
   spec_content:
   - template: product-spec-multi
@@ -35,5 +31,9 @@ product_specs:
   - template: product-spec-single
     content: The neck, pickguard, and covers have a velvety smooth satin finish, the
       body has a high gloss, transparent white finish
+- heading: Body Shape
+  spec_content:
+  - template: product-spec-single
+    content: S-Type
 
 ---
