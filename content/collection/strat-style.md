@@ -36,5 +36,8 @@ product_specs:
   - template: product-spec-single
     content: S-Type
 gallery: content/gallery/strat-style.md
+image_select:
+- image: "/11419-strat-back20200622.jpg"
+  tags: []
 
 ---
