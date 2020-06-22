@@ -44,6 +44,11 @@ fields:
     maxSize: 64
   label: Featured Image
   description: 600 x 600px
+- name: gallery
+  type: include
+  config: {}
+  template: image-gallery
+  label: Gallery
 - name: product_specs
   type: field_group_list
   fields:
@@ -76,11 +81,6 @@ fields:
     template: meta-data
     label: Meta Data Field
   label: Meta Data
-- name: image_gallery
-  type: include
-  config: {}
-  template: image-upload
-  label: Image Gallery
 pages:
 - content/collection/strat-style.md
 - content/collection/test-4.md
