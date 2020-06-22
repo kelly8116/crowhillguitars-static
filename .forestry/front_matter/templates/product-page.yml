@@ -44,11 +44,6 @@ fields:
     maxSize: 64
   label: Featured Image
   description: 600 x 600px
-- name: image_gallery
-  type: include
-  config: {}
-  template: image-upload
-  label: Image Gallery
 - name: product_specs
   type: field_group_list
   fields:
