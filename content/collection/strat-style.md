@@ -35,5 +35,6 @@ product_specs:
   spec_content:
   - template: product-spec-single
     content: S-Type
+gallery: content/gallery/strat-style.md
 
 ---
