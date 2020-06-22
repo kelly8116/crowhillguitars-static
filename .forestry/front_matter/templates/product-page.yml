@@ -66,6 +66,10 @@ fields:
     max: 
     labelField: 
   label: Product Specs
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
 - name: meta_data
   type: field_group
   config: {}
