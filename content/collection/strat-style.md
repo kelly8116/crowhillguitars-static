@@ -23,5 +23,8 @@ product_specs:
   - template: product-spec-multi
     row_heading: Body
     content: Yellow cedar.
+  - template: product-spec-multi
+    row_heading: Pickgard
+    content: Bigleaf curly maple
 
 ---
