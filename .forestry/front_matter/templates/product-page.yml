@@ -51,9 +51,9 @@ fields:
     required: false
     options: []
     source:
-      type: pages
+      type: documents
       section: image-gallery
-      file: 
+      file: content/gallery/strat-style.md
       path: 
   label: Gallery
 - name: product_specs
