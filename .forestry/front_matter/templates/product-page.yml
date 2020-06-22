@@ -51,7 +51,7 @@ fields:
     required: false
     options: []
     source:
-      type: documents
+      type: pages
       section: image-gallery
       file: content/gallery/strat-style.md
       path: 
