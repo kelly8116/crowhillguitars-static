@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/gallery
+  label: Image Gallery
+  create: all
+  match: "**/*"
+  templates:
+  - image-upload
+- type: directory
   path: content/collection
   label: Collection
   create: all
