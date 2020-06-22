@@ -19,6 +19,6 @@ product_specs:
     content: European maple
   - template: product-spec-multi
     row_heading: 'Fingerboard:'
-    content: Bigleaf, curly maple fingerboard
+    content: Bigleaf, curly maple.
 
 ---
