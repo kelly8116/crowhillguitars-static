@@ -15,14 +15,14 @@ product_specs:
 - heading: Wood
   spec_content:
   - template: product-spec-multi
-    row_heading: 'Neck:'
+    row_heading: Neck
     content: European maple
   - template: product-spec-multi
-    row_heading: 'Fingerboard:'
-    content: Bigleaf, curly maple.
+    row_heading: Fingerboard
+    content: Bigleaf, curly maple
   - template: product-spec-multi
     row_heading: Body
-    content: Yellow cedar.
+    content: Yellow cedar
   - template: product-spec-multi
     row_heading: Pickgard
     content: Bigleaf curly maple
