@@ -12,6 +12,10 @@ available:
 purchase_code: '4597955887185'
 featured_image: "/11419-strat-featured20200622.jpg"
 product_specs:
+- heading: Body Shape
+  spec_content:
+  - template: product-spec-single
+    content: S-Type
 - heading: Wood
   spec_content:
   - template: product-spec-multi
