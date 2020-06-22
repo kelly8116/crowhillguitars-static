@@ -44,6 +44,18 @@ fields:
     maxSize: 64
   label: Featured Image
   description: 600 x 600px
+- name: gallery
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: image-gallery
+      file: 
+      path: 
+  label: Gallery
 - name: product_specs
   type: field_group_list
   fields:
@@ -66,10 +78,6 @@ fields:
     max: 
     labelField: 
   label: Product Specs
-- name: gallery
-  type: image_gallery
-  config: {}
-  label: Gallery
 - name: meta_data
   type: field_group
   config: {}
