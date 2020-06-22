@@ -44,6 +44,28 @@ fields:
     maxSize: 64
   label: Featured Image
   description: 600 x 600px
+- name: product_specs
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: heading
+  - name: spec_content
+    type: blocks
+    label: Spec Content
+    template_types:
+    - product-spec-single
+    - product-spec-multi
+    config:
+      min: 
+      max: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Product Specs
 - name: meta_data
   type: field_group
   config: {}
@@ -54,19 +76,6 @@ fields:
     template: meta-data
     label: Meta Data Field
   label: Meta Data
-- name: product_specs
-  type: field_group_list
-  fields:
-  - name: heading
-    type: text
-    config:
-      required: false
-    label: heading
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Product Specs
 pages:
 - content/collection/strat-style.md
 - content/collection/test-4.md
