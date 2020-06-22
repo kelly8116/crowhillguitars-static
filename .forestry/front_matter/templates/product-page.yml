@@ -79,7 +79,7 @@ fields:
 - name: image_gallery
   type: include
   config: {}
-  template: product-spec-single
+  template: image-upload
   label: Image Gallery
 pages:
 - content/collection/strat-style.md
