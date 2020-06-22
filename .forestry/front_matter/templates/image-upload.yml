@@ -30,5 +30,3 @@ fields:
     max: 
     labelField: 
   label: Gallery
-pages:
-- content/gallery/strat-style.md
