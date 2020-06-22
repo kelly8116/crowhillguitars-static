@@ -26,5 +26,10 @@ product_specs:
   - template: product-spec-multi
     row_heading: Pickgard
     content: Bigleaf curly maple
+- heading: Finish
+  spec_content:
+  - template: product-spec-single
+    content: The neck, pickguard, and covers have a velvety smooth satin finish, the
+      body has a high gloss, transparent white finish
 
 ---
