@@ -20,5 +20,8 @@ product_specs:
   - template: product-spec-multi
     row_heading: 'Fingerboard:'
     content: Bigleaf, curly maple.
+  - template: product-spec-multi
+    row_heading: Body
+    content: Yellow cedar.
 
 ---
