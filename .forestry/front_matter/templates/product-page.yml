@@ -44,18 +44,6 @@ fields:
     maxSize: 64
   label: Featured Image
   description: 600 x 600px
-- name: gallery
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: image-gallery
-      file: content/gallery/strat-style.md
-      path: 
-  label: Gallery
 - name: image_gallery
   type: include
   config: {}
