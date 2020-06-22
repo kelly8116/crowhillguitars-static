@@ -38,6 +38,12 @@ fields:
   config:
     maxSize: 64
   label: Hero Image
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+  description: 600 x 600px
 - name: meta_data
   type: field_group
   config: {}
@@ -48,15 +54,6 @@ fields:
     template: meta-data
     label: Meta Data Field
   label: Meta Data
-- name: purchase_code
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Purchase Code
 pages:
 - content/collection/strat-style.md
 - content/collection/test-4.md
