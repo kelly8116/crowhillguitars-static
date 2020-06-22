@@ -56,6 +56,11 @@ fields:
       file: content/gallery/strat-style.md
       path: 
   label: Gallery
+- name: image_gallery
+  type: include
+  config: {}
+  template: image-upload
+  label: Image Gallery
 - name: product_specs
   type: field_group_list
   fields:
