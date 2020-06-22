@@ -9,6 +9,7 @@ available:
   is_available: true
   price: "3400"
   product_id: "4597955887185"
-purchase_code: "4597955887185"
+purchase_code: '4597955887185'
+featured_image: "/11419-strat-featured20200622.jpg"
 
 ---
