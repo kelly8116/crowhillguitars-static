@@ -39,12 +39,12 @@ gallery: content/gallery/strat-style.md
 image_select:
 - image: "/11419-strat-full-face20200623.jpg"
   tags: []
-- image: "/11419strat-face20200623.jpg"
-  tags: []
 - image: "/11419-strat-neck-joint_0120200622.jpg"
   tags:
   - pick guard
 - image: "/11419-strat-back20200622.jpg"
+  tags: []
+- image: "/11419strat-face20200623.jpg"
   tags: []
 
 ---
