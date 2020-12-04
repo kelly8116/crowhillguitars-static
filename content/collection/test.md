@@ -1,8 +1,17 @@
 ---
 title: test
-hero_image: "/11419strat-face20200620.jpg"
+hero_image: "/11419-strat-full-face20200623.jpg"
 meta_data:
   title_tag: ''
   description_tag: ''
+subtitle: ''
+available:
+  is_available: false
+  price: ''
+  product_id: ''
+collection_image: ''
+featured_image: ''
+image_select: []
+product_specs: []
 
 ---
